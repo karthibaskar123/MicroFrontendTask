@@ -1,0 +1,62 @@
+/* Container for the create post form */
+.create-post-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .create-post-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Label styling */
+  .create-post-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #555;
+  }
+  
+  /* Input and textarea styling */
+  .create-post-container input[type="text"],
+  .create-post-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Button styling */
+  .create-post-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-post-container button:hover {
+    background-color: #0056b3;
+  }
+  .buttonspace {
+    display: flex;
+    justify-content: space-between; /* Ensures buttons are spaced evenly */
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
