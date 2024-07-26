@@ -1,0 +1,55 @@
+
+.user-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .user-list-container h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+
+  .user-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  .user-list-container ul li {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #555;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+
+  .button-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5ec276;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #218838;
+  }
+  

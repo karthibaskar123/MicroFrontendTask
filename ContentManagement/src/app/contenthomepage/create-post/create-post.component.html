@@ -1,0 +1,13 @@
+<div class="create-post-container">
+  <h2>Create Post</h2>
+  <form [formGroup]="postForm" (ngSubmit)="createPost()">
+    <label for="title">Title</label>
+    <input id="title" formControlName="title" type="text">
+    <label for="content">Content</label>
+    <textarea id="content" formControlName="content"></textarea>
+    <div class="buttonspace">
+    <button type="submit">Create Post</button>
+    <button (click)="GoBack()">Back to Posts</button>
+  </div>
+  </form>
+</div>
