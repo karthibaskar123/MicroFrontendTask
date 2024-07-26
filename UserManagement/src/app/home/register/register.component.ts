@@ -29,7 +29,7 @@ export class RegisterComponent {
       this.userService.checkUserExists(username).subscribe(exists => {
         if (exists) {
           alert('User is already registered!');
-          this.router.navigate(['/ContentManagement/login']); // Navigate to the login route exposed by ContentManagement MFE
+          this.router.navigate(['/ContentManagement/login']); 
         } else {
           this.userService.register(username, password)
             .subscribe(() => {

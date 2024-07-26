@@ -23,7 +23,7 @@ export class CreatePostComponent {
     if (this.postForm.valid) {
       const post = {
         ...this.postForm.value,
-        author: 'currentUser' // Replace 'currentUser' with actual user
+        author: 'currentUser'
       };
       this.postService.createPost(post).subscribe(() => {
         alert('Post created successfully!');

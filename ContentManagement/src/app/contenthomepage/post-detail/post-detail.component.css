@@ -1,4 +1,4 @@
-/* Container for the post and comments section */
+
 div {
     max-width: 600px;
     margin: 0 auto;
@@ -9,14 +9,13 @@ div {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Post title styling */
+
   h2 {
     text-align: center;
     font-family: 'Arial', sans-serif;
     color: #333;
   }
   
-  /* Post content styling */
   p {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
@@ -24,20 +23,17 @@ div {
     line-height: 1.6;
   }
   
-  /* Comments heading styling */
   h3 {
     margin-top: 30px;
     font-family: 'Arial', sans-serif;
     color: #333;
   }
-  
-  /* List styling */
+
   ul {
     list-style-type: none;
     padding: 0;
   }
-  
-  /* List item styling */
+
   ul li {
     display: flex;
     justify-content: space-between;
@@ -46,15 +42,13 @@ div {
     padding: 10px;
     border-bottom: 1px solid #ddd;
   }
-  
-  /* Comment text styling */
+ 
   ul li span {
     font-family: 'Arial', sans-serif;
     font-size: 14px;
     color: #555;
   }
-  
-  /* Delete button styling */
+ 
   ul li button {
     padding: 5px 10px;
     border: none;
@@ -70,9 +64,8 @@ div {
     background-color: #c82333;
   }
   
-  /* Input and add comment button styling */
   input {
-    width: calc(50% - 50px); /* Full width minus button width and padding */
+    width: calc(50% - 50px); 
     padding: 10px;
     margin: 20px 0;
     border: 1px solid #ccc;
@@ -102,11 +95,7 @@ div {
     display: flex;
     justify-content: space-between;     
   }
-  
-  /* .buttonspace button {
-    padding: 5px 10px; 
-  }
-   */
+
 
    .input-container {
     display: flex;

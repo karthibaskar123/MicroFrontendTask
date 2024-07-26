@@ -39,7 +39,7 @@ export class PostService {
   }
 
   deleteComment(id: number): Observable<any> {
-    console.log('Deleting comment ID:', id); // Debugging
+    console.log('Deleting comment ID:', id);
     return this.http.delete<any>(`${this.commentsUrl}/${id}`);
   }
 

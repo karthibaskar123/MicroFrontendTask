@@ -1,4 +1,4 @@
-/* Container for the posts section */
+
 .posts-container {
     max-width: 600px;
     margin: 20px auto;
@@ -9,7 +9,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Heading styling */
+  
   .posts-container h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -17,20 +17,20 @@
     color: #333;
   }
   
-  /* List styling */
+  
   .posts-container ul {
     list-style-type: none;
     padding: 0;
   }
   
-  /* List item styling */
+
   .posts-container ul li {
     margin-bottom: 15px;
     padding: 10px;
     border-bottom: 1px solid #ddd;
   }
   
-  /* Link styling */
+
   .posts-container ul li a {
     text-decoration: none;
     color: #007bff;
@@ -43,7 +43,7 @@
     color: #0056b3;
   }
   
-  /* "Create a new post" link styling */
+
   .posts-container a.create-post-link {
     display: block;
     margin-top: 20px;
@@ -64,14 +64,14 @@
   }
   
   
-  /* Button container styling */
+ 
   .button-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
   
-  /* Button styling */
+
   .button-container button {
     padding: 10px 20px;
     border: none;
